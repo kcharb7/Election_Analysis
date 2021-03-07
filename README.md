@@ -5,14 +5,15 @@ Tom, a Colorado Board of Elections employee, asked me to assist in the audit of 
 Tom’s manager additionally wanted to know if there was a way to automate this process using Python to be used in other elections.
 
 In this project, the final Python script needed to be able to deliver the following information when run: 
-•	Total number of votes cast
-•	A complete list of candidates who received votes
-•	Total number of votes each candidate received
-•	Percentage of votes each candidate won
-•	The winner of the election based on popular vote
-•	The voter turnout for each county
-•	The percentage of votes from each county out of the total count
-•	The county with the highest turnout
+- Total number of votes cast
+- A complete list of candidates who received votes
+- Total number of votes each candidate received
+- Percentage of votes each candidate won
+- The winner of the election based on popular vote
+- The voter turnout for each county
+- The percentage of votes from each county out of the total count
+- The county with the highest turnout
+
 ## Resources
 -	Data Source: election_results.csv
 -	Software: Python 3.6.1, Visual Studio Code 1.38.1
