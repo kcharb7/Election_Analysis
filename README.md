@@ -52,19 +52,19 @@ I used the next() method to skip the header row of the CSV file and then iterate
 ### Total Votes
 To get the total number of votes cast in the election, I initialized a variable called “total_votes” to zero. This variable was placed above the code where I opened the file. 
 ```
-# 1. Initialize a total vote counter.
+# Initialize a total vote counter.
 total_votes = 0
 ```
 Following the for loop, I added a line to increment the “total_volumes” by 1: 
 ```
     # Print each row in the CSV file.
     for row in file_reader:
-        # 2. Add to the total vote count.
+        # Add to the total vote count.
         total_votes += 1
 ```
 Next, I added a line to print out the total votes:
 ```
-# 3. Print the total votes.
+# Print the total votes.
 print(total_votes)
 ```
 
@@ -338,4 +338,4 @@ Finally, I wrote a script that saves the county with the largest turnout to the 
     - The winning candidate was Diana DeGette, with a winning vote count of 272,892 votes and a winning percentage of 73.8% of votes.
 
 ## Election Audit Summary
-Due to the simplicity of this script and analysis, this script can be used for any election, such as the federal election. If using this script to audit a federal election, only the slight modification of changing counties to states would be needed. Furthermore, votes from an election are often received by mail-in ballots, punch cards, or direct recording electronic. This script can be easily modified to create a list of the types of election methods as was done for the list of candidate names, and modified to create a dictionary of the votes per method. Then, the script can be used to determine which methods had the highest votes and thus which method was used most often. 
+Due to the simplicity of this script and analysis, this script can be used for any election, such as the federal election. If using this script to audit a federal election, only the slight modification of changing counties to states would be needed. Furthermore, votes from an election are often received by mail-in ballots, punch cards, or direct recording electronic. If a database had information on how votes were collected, this script could be easily modified to create a list of the types of election methods as was done for the list of candidate names, and modified to create a dictionary of the votes per method. Then, the script can be used to determine which methods had the highest votes and thus which method was used most often. 
